@@ -1,0 +1,16 @@
+name: Add / update a tool
+description: Suggest a new Document AI / OCR tool or a correction
+labels: ["entry"]
+body:
+  - type: input
+    id: name
+    attributes: { label: Tool name }
+    validations: { required: true }
+  - type: input
+    id: link
+    attributes: { label: Repository / homepage URL }
+    validations: { required: true }
+  - type: textarea
+    id: details
+    attributes: { label: Org, category, open-source?, license }
+    validations: { required: true }
