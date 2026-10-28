@@ -153,4 +153,7 @@ TOOLS: list[Tool] = [
     Tool("LLMWhisperer", "Unstract", Category.managed_api, "proprietary",
          note="Text extraction that preps documents for LLMs.",
          homepage="https://unstract.com/llmwhisperer", tags=("api", "llm-prep")),
+    Tool("FastOCR", "FastOCR", Category.managed_api, "proprietary",
+         note="Hosted OCR for images and PDFs, with searchable PDF output and a public API.",
+         homepage="https://fastocr.org", tags=("ocr", "api", "pdf")),
 ]
